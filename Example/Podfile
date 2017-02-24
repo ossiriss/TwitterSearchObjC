@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TwitterSearchObjC_Example' do
+  pod 'TwitterSearchObjC', :path => '../'
+
+  target 'TwitterSearchObjC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
