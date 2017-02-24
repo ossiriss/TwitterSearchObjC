@@ -7,6 +7,7 @@
 //
 
 #import "MyViewController.h"
+@import TwitterSearchObjC;
 
 @interface MyViewController ()
 
@@ -17,7 +18,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view, typically from a nib
+    
+    [Api getTweetsArray:@"#barca" andCompletion:^(Boolean success, NSArray * _Nullable data, NSString * _Nullable error) {
+        if (success){
+            NSLog(@"success");
+            for (id tweet in data){
+                NSLog(@"tweet: %@", tweet);
+            }
+        } else{
+            NSLog(@"error: %@", error);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning

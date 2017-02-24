@@ -1,0 +1,6 @@
+framework module Pods_TwitterSearchObjC_Example {
+  umbrella header "Pods-TwitterSearchObjC_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
