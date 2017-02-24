@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TwitterSearchObjC'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'this CocoaPod allows to search Tweets in Twitter'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     Using this pod you can serch for Tweets in Twitter and save them to an array
                        DESC
 
-  s.homepage         = 'https://github.com/ossiris@mail.ru/TwitterSearchObjC'
+  s.homepage         = 'https://github.com/ossiriss/TwitterSearchObjC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ossiris@mail.ru' => 'borisestrin@gmail.com' }
-  s.source           = { :git => 'https://github.com/ossiris@mail.ru/TwitterSearchObjC.git', :tag => s.version.to_s }
+  s.author           = { 'Boris Estrin' => 'borisestrin@gmail.com' }
+  s.source           = { :git => 'https://github.com/ossiriss/TwitterSearchObjC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
