@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - TwitterSearchObjC (0.1.0):
+  - TwitterSearchObjC (0.1.1):
     - AFNetworking (~> 3.1)
 
 DEPENDENCIES:
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  TwitterSearchObjC: 679e9c257398f5e43e4201ca9c71bf82a39532b2
+  TwitterSearchObjC: dfd7ad235bf60bfd901f021bb458723c06710259
 
 PODFILE CHECKSUM: 15e22d0d6d4e9dc0cc7b681fee715caf12191c85
 

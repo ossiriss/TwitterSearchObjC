@@ -1,19 +1,19 @@
 {
   "name": "TwitterSearchObjC",
-  "version": "0.1.0",
-  "summary": "A short description of TwitterSearchObjC.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ossiris@mail.ru/TwitterSearchObjC",
+  "version": "0.1.1",
+  "summary": "this CocoaPod allows to search Tweets in Twitter",
+  "description": "Using this pod you can serch for Tweets in Twitter and save them to an array",
+  "homepage": "https://github.com/ossiriss/TwitterSearchObjC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ossiris@mail.ru": "borisestrin@gmail.com"
+    "Boris Estrin": "borisestrin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/ossiris@mail.ru/TwitterSearchObjC.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ossiriss/TwitterSearchObjC.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

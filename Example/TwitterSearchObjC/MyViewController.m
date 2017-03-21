@@ -8,10 +8,11 @@
 
 #import "MyViewController.h"
 @import TwitterSearchObjC;
+//#import "Api.h"
 
-@interface MyViewController ()
+/*@interface MyViewController ()
 
-@end
+@end*/
 
 @implementation MyViewController
 
@@ -20,11 +21,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib
     
-    [Api getTweetsArray:@"#barca" andCompletion:^(Boolean success, NSArray * _Nullable data, NSString * _Nullable error) {
+    [Api getTweetsArray:@"#video" andCompletion:^(Boolean success, NSArray * _Nullable data, NSString * _Nullable error) {
         if (success){
             NSLog(@"success");
-            for (id tweet in data){
-                NSLog(@"tweet: %@", tweet);
+            for (Tweet *tweet in data){
+                NSLog(@"tweet: %@", tweet.text);
             }
         } else{
             NSLog(@"error: %@", error);
